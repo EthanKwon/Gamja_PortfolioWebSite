@@ -186,6 +186,10 @@ input, select, textarea {
 	p {
 		font-size: 1rem;
 		margin: 0 0 2rem 0;
+		-ms-word-break: break-word;
+		-moz-word-break: break-word;
+		-webkit-word-break: break-word;
+		word-break: break-word;
 	}
 
 		p.major {
@@ -2669,6 +2673,16 @@ input, select, textarea {
 	#date {
 		font-style: italic;
 		font-weight: bold;
+	}
+	#keyWord {
+		font-weight: bold;
+	}
+	#dateList {
+		font-style: italic;
+		color: gray;
+	}
+	#conList {
+		font-size: 0.8em;
 	}
 
 	ol {
