@@ -2681,6 +2681,12 @@ input, select, textarea {
 		font-style: italic;
 		color: gray;
 	}
+	#datePro {
+		font-style: italic;
+		font-weight: bold;
+		color: gray;
+	}
+
 	#conList {
 		font-size: 0.8em;
 	}

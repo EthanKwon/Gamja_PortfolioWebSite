@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Story by HTML5 UP</title>
+		<title>Project1 : 층간소음 알리미</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -17,17 +17,17 @@
 		<!-- Wrapper -->
 			<div id="wrapper" class="divided">
 
-    <section class="spotlight style5 orient-center content-align-center image-position-center onscroll-image-fade-in">
+    <section class="banner style3 orient-center content-align-center image-position-center onscroll-image-fade-in">
       <div class="content">
-        <h3>Project 1 : 층간소음 알리미</h3>
+        <h2>Project 1 : 층간소음 알리미</h2>
         <p id="conList">
-          대학교 4학년, 마지막 과제인 "캡스톤 디자인" 주제로 제작했던 <br>"층간소음 알리미" 입니다.
+          대학교 4학년, 마지막 과제인 "캡스톤 디자인" 주제로 제작했던 "층간소음 알리미" 입니다.
           <br><br>
-          Arduino와 MATLAB기반의 데이터 분석을 통해 각 가구의 층간소음을 비교,분석 하여 실제 소음 유발 가구의 판별 시스템을 연구한 프로젝트입니다.
+          Arduino와 MATLAB기반의 데이터 분석을 통해 각 가구의 층간소음을 비교,분석하여 <br> 실제 소음 유발 가구의 판별 시스템을 연구한 프로젝트입니다.
         </p>
       </div>
       <div class="image" >
-        <img src="images/spotlight01.jpg" alt="" />
+        <img src="images/gallery/project/project1.jpg" alt="" />
       </div>
     </section>
 
@@ -36,8 +36,13 @@
 			<section class="wrapper style2 align-center">
 				<div class="inner">
 					<h2>프로젝트 진행 과정</h2>
-					<p>프로젝트 진행은 크게 상반기(1월 ~ 6월)와 하반기 (7월 ~ 11월)로 나누었습니다.</p>
+					<p>아래 내용은 프로젝트 진행에 대해서 크게 상반기(1월 ~ 6월)와 하반기 (7월 ~ 11월)로 나누었습니다. <br><br>
+						프로젝트에 관한 자세한 내용은 "Learn More을 통해 볼 수 있습니다."
+					</p>
+						<a href="media/project1.pdf" class="button small">Learn More</a>
+						<hr>
 					<div class="index align-left">
+
 
 					<!-- here! write your information -->
 
@@ -49,35 +54,167 @@
               <div class="content">
 
                 <h4>상반기(1월 ~ 6월)</h4>
-                <p><span class="image left"><img src="images/pic01.jpg" alt="" /></span>
-									1월 ~ 2월 : 팀원들과 함께 주제를 정하기 위해 두 달동안 4번의 회의를 걸쳐 이웃간의 층간 소음을 줄일 수 있는 무언가를 만들자고 결정. <br>
-									3월 : 소음의 측정 방식은 인접 가정에서 발생하는 소음들을 모두 비교하여 일정 기준치를 넘었음과 동시에 가장 큰 소리를 발생 시킨 가정을 층간 소음 유발가구로 판별하는 시스템을 만드는 방향으로 결정. <br>
-												또한, 층간소음을 측정하기 위한 하드웨어 선정에 있어, 여러가지 센서를 사용해볼수 있는 아두이노를 기반으로 소리를 측정하고자 결정 <br>
-									4월 : 층간소음의 기춘치를 정확히 측정하기 어려운 에로사항이 발생하였으나, 해당 내용과 관련된 층간소음 법적 기준치, 측정 방식 등을 찾아 문제를 해결. <br>
-									5월 : 저품질의 센서를 사용하여 소음과 잡음의 구별이 어렵고, 이에 따른 정확한 소음 측정이 불가하였으나, 이는 좀더 높은 사양의 오디오 센서로 변경하여 오차를 최대한 줄이고자 함. <br>
-									6월 : 소음의 측정은 일부 한계를 제외하고는 층간 소음 측정에 있어 실제 소음 측정기와 유사한 성능을 지닐 정도의 측정이 가능 하게 설계. <br>
-												또한, 각 가정의 소음을 비교하기 위해 데이터를 한 곳에 수집해야 한다고 판단 되어, WiFi Shield를 추가하면서 이를 통해 서버를 운용하기로 결정. <br>
+                <p><span class="image left"><img src="images/gallery/project/arduino.jpg" alt="" /></span>
+									<span id="datePro">1월 ~2월 : </span> 팀원들과 함께 주제를 정하기 위해 두 달동안 4번의 회의를 걸쳐 <span id="keyWord">이웃간의 층간 소음</span>을 줄일 수 있는 무언가를 만들자고 결정. <br><br>
+									<span id="datePro">3월 : </span> 소음의 측정 방식은 인접 가정에서 발생하는 소음들을 모두 비교하여 일정 기준치를 넘었음과 동시에 가장 큰 소리를 발생 시킨 가정을 <span id="keyWord">층간 소음 유발가구로 판별하는 시스템</span>을 만드는 방향으로 결정. <br><br>
+												또한, 층간소음을 측정하기 위한 하드웨어 선정에 있어, 여러가지 센서를 사용해볼수 있는 <span id="keyWord">아두이노</span>를 기반으로 소리를 측정하고자 결정 <br><br>
+									<span id="datePro">4월 : </span> 층간소음의 기춘치를 정확히 측정하기 어려운 에로사항이 발생하였으나, 해당 내용과 관련된 <span id="keyWord">층간소음 법적 기준치, 측정 방식 등</span>을 찾아 문제를 해결. <br><br>
+									<span id="datePro">5월 : </span> 저품질의 센서를 사용하여 소음과 잡음의 구별이 어렵고, 이에 따른 정확한 소음 측정이 불가하였으나, 이는 <span id="keyWord">좀더 높은 사양의 오디오 센서로 변경</span>하여 오차를 최대한 줄이고자 함. <br><br>
+									<span id="datePro">6월 : </span> 소음의 측정은 일부 한계를 제외하고는 층간 소음 측정에 있어 <span id="keyWord">실제 소음 측정기와 유사한 성능</span>을 지닐 정도의 측정이 가능 하게 설계. <br><br>
+												또한, 각 가정의 소음을 비교하기 위해 데이터를 한 곳에 수집해야 한다고 판단 되어, WiFi Shield를 추가하면서 이를 통해 <span id="keyWord">서버를 운용하기로 결정</span>. <br><br>
 								</p>
-
+								<hr>
                 <h4>하반기(7월 ~ 11월)</h4>
-                <p><span class="image right"><img src="images/pic02.jpg" alt="" /></span>
-									7월 ~ 8월 : 서버를 팀 내에서 운용하기에 팀내 능력 부족을 판단하여, 데이터 수집에 이용할 수 있는 IoT Platform을 찾아 사용하기로 결정. <br>
-															그 결과, "ThingSpeak"라는 Platform을 이용하여 데이터를 수집하여, 서버에서 층간소음 유발가구를 판별할 수 있도록 MATLAB을 이용하여 프로그래밍을 설계. <br>
-									9월 : 소음은 매우 짧은 시간동안 측정 되기 때문에 서버층에서 통신을 하는데 제약이 발생하였으나, 약간의 오차를 감수하고 10분간의 측정 데이터를 아두이노가 기억하도록 설계. <br>
-									10월 : 하드웨어, 소프트웨어 설계를 끝내고 남은 기간동안 테스트를 하면서 오류 수정, 동시에 전시회 장에서 사용될 모형 건물(2층으로 된 4개의 인접가구)을 제작. <br>
-									11월 : 테스트를 마치고, 작품 전시회에 무사히 출품. 전시장의 예기치 못한 통신 오류로 인해 지속적인 업데이트를 계속 진행. 다행히도 커다란 문제없이 프로젝트 종료. <br>
+                <p><span class="image right"><img src="images/gallery/project/thingspeak.jpg" alt="" /></span>
+									<span id="datePro">7월~8월 : </span> 서버를 팀 내에서 운용하기에 팀내 능력 부족을 판단하여, 데이터 수집에 이용할 수 있는 <span id="keyWord">IoT Platform</span>을 찾아 사용하기로 결정. <br><br>
+															그 결과, <span id="keyWord">"ThingSpeak"</span>라는 Platform을 이용하여 데이터를 수집하여, 서버에서 층간소음 유발가구를 판별할 수 있도록 MATLAB을 이용하여 프로그래밍을 설계. <br><br>
+									<span id="datePro">9월 : </span> 소음은 매우 짧은 시간동안 측정 되기 때문에 서버층에서 통신을 하는데 제약이 발생하였으나, 약간의 오차를 감수하고 10분간의 측정 데이터를 아두이노가 기억하도록 설계. <br><br>
+									<span id="datePro">10월 : </span> 하드웨어, 소프트웨어 설계를 끝내고 남은 기간동안 <span id="keyWord">테스트를 하면서 오류 수정</span>, 동시에 전시회 장에서 사용될 모형 건물(2층으로 된 4개의 인접가구)을 제작. <br><br>
+									<span id="datePro">11월 : </span> 테스트를 통해 최대한 오류를 줄이고, <span id="keyWord">무사히 작품 전시회에 출품</span>. 전시장에서 WiFi문제로 인한 통신 문제가 발생 했으나, 빠른 대처로 무사히 프로젝트를 마무리 <br><br>
 								</p>
-
-                <h4>최종 결과</h4>
-                <span class="image fit"><img src="images/banner.jpg" alt="" /></span>
-
+								<hr>
+                <h4>최종 결과 (동영상 시연)</h4>
+                <span class="image fit"><video src="media/project1.mp4" width = 700 height = 600 controls></video></span>
               </div>
             </section>
-
-					<!--  -->
 					</div>
-				</div>
+
+
+					<!-- 옥타브 활동 사진 제목 -->
+						<section class="wrapper style1 align-center">
+							<div class="inner">
+								<hr>
+								<h3>층간소음 알리미 프로젝트</h3>
+								<p>아래는 프로젝트와 관련된 사진들 입니다.</p>
+							</div>
+
+							<!-- 옥타브 활동 사진 -->
+								<div class="gallery style2 medium lightbox onscroll-fade-in">
+									<article>
+										<a href="images/gallery/project/arduino1.jpg" class="image" id="imageCenter1">
+											<img src="images/gallery/project/arduino1.jpg" alt="" id="imageCenter2">
+										</a>
+										<div class="caption">
+											<h3>층간소음 알리미 프로젝트</h3>
+											<p>프로젝트에서 사용한 Arduino와 센서 입니다.</p>
+											<ul class="actions fixed">
+												<li><span class="button small">Details</span></li>
+											</ul>
+										</div>
+									</article>
+									<article>
+ 									 <a href="images/gallery/project/arduino2.jpg" class="image" id="imageCenter1">
+ 										 <img src="images/gallery/project/arduino2.jpg" alt="" id="imageCenter2">
+ 									 </a>
+ 									 <div class="caption">
+ 										 <h3>층간소음 알리미 프로젝트</h3>
+ 										 <p>프로젝트에서 사용한 Arduino와 센서 입니다. 총 4개를 사용했습니다.</p>
+ 										 <ul class="actions fixed">
+ 											 <li><span class="button small">Details</span></li>
+ 										 </ul>
+ 									 </div>
+ 								 </article>
+								 <article>
+									<a href="images/gallery/project/graph.png" class="image">
+										<img src="images/gallery/project/graph.png" alt="" id="imageCenter4">
+									</a>
+									<div class="caption">
+										<h3>층간소음 알리미 프로젝트</h3>
+										<p>ThingSpeak를 사용하기 전 그래프 입니다.</p>
+										<ul class="actions fixed">
+											<li><span class="button small">Details</span></li>
+										</ul>
+									</div>
+								</article>
+								<article>
+								 <a href="images/gallery/project/graph1.png" class="image" id="imageCenter1">
+									 <img src="images/gallery/project/graph1.png" alt="" id="imageCenter2">
+								 </a>
+								 <div class="caption">
+									 <h3>층간소음 알리미 프로젝트</h3>
+									 <p>ThingSpeak를 이용하여 수집한 소음의 그래프 입니다.</p>
+									 <ul class="actions fixed">
+										 <li><span class="button small">Details</span></li>
+									 </ul>
+								 </div>
+							 </article>
+							 <article>
+								<a href="images/gallery/project/graph2.png" class="image" >
+									<img src="images/gallery/project/graph2.png" alt=""  >
+								</a>
+								<div class="caption">
+									<h3>층간소음 알리미 프로젝트</h3>
+									<p>ThingSpeak를 이용하여 수집한 소음의 그래프 입니다.</p>
+									<ul class="actions fixed">
+										<li><span class="button small">Details</span></li>
+									</ul>
+								</div>
+							</article>
+							<article>
+							 <a href="images/gallery/project/exhibit1.jpg" class="image" >
+								 <img src="images/gallery/project/exhibit1.jpg" alt=""  id="imageCenter4">
+							 </a>
+							 <div class="caption">
+								 <h3>층간소음 알리미 프로젝트</h3>
+								 <p>작품 전시회에서 사용한 모형입니다.</p>
+								 <ul class="actions fixed">
+									 <li><span class="button small">Details</span></li>
+								 </ul>
+							 </div>
+						 </article>
+						 <article>
+							<a href="images/gallery/project/exhibit2.jpg" class="image" id="imageCenter3">
+								<img src="images/gallery/project/exhibit2.jpg" alt=""id="imageCenter4" >
+							</a>
+							<div class="caption">
+								<h3>층간소음 알리미 프로젝트</h3>
+								<p>작품 전시회에서 사용한 모형입니다.</p>
+								<ul class="actions fixed">
+									<li><span class="button small">Details</span></li>
+								</ul>
+							</div>
+						</article>
+						<article>
+						 <a href="images/gallery/project/prize1.jpg" class="image">
+							 <img src="images/gallery/project/prize1.jpg" alt="" >
+						 </a>
+						 <div class="caption">
+							 <h3>층간소음 알리미 프로젝트</h3>
+							 <p>작품 전시회에서 사용한 모형입니다.</p>
+							 <ul class="actions fixed">
+								 <li><span class="button small">Details</span></li>
+							 </ul>
+						 </div>
+					 </article>
+					<article>
+					 <a href="images/gallery/project/prize2.jpg" class="image">
+						 <img src="images/gallery/project/prize2.jpg" alt="" >
+					 </a>
+					 <div class="caption">
+						 <h3>층간소음 알리미 프로젝트</h3>
+						 <p>작품 전시회에서 은상을 수상했습니다.</p>
+						 <ul class="actions fixed">
+							 <li><span class="button small">Details</span></li>
+						 </ul>
+					 </div>
+				 </article>
+				 <article>
+					<a href="images/gallery/project/prize3.jpg" class="image"  id="imageCenter3">
+						<img src="images/gallery/project/prize3.jpg" alt=""  id="imageCenter2">
+					</a>
+					<div class="caption">
+						<h3>층간소음 알리미 프로젝트</h3>
+						<p>작품 전시회에서 은상을 수상했습니다.</p>
+						<ul class="actions fixed">
+							<li><span class="button small">Details</span></li>
+						</ul>
+					</div>
+				</article>
+					</div>
 			</section>
+		</div>
+	</section>
+
 			<!-- Footer -->
 				<footer class="wrapper style1 align-center">
 					<div class="inner">
